@@ -10,6 +10,8 @@ phases:
       - npm run lint-js
       - echo Lint-CSS started on `date`
       - npm run lint-css
+      - echo Test started on `date`
+      - npm run test
       - echo Build started on `date`
       - npm run build
   post_build:

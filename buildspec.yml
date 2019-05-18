@@ -10,6 +10,10 @@ phases:
       - npm run build
   post_build:
     commands:
+      - echo List the project files
+      - ls
+      - echo List the bucket files
+      - aws s3 ls s3://jerrythimothy.com
       # Delete object from bucket
       - aws s3 rm s3://jerrythimothy.com/**/* --recursive
       # copy the contents of /build to S3

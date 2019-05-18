@@ -11,7 +11,7 @@ $(document).ready(function () {
             timeOut: 4000
                     // positionClass: "toast-top-left"
         };
-        toastr.success("Responsive Admin Template", "Welcome to Jerry Thimothy's website");
+        toastr.success("", "Welcome to Jerry Thimothy's website");
 
     }, 1300);
 

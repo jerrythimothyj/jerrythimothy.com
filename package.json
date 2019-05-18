@@ -37,13 +37,8 @@
     ]
   },
   "devDependencies": {
-    "husky": "2.1.0",
-    "lint-staged": "8.1.5",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.17.1",
-    "tslint": "^5.16.0",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-plugin-prettier": "^2.0.1",
-    "tslint-react": "^4.0.0",
     "stylelint": "10.0.1",
     "stylelint-8-point-grid": "0.2.1",
     "stylelint-color-format": "0.2.0",
@@ -57,24 +52,23 @@
     "stylelint-order": "3.0.0",
     "stylelint-scss": "3.6.0",
     "stylelint-selector-bem-pattern": "2.1.0",
-    "stylelint-selector-no-empty": "1.0.7"
+    "stylelint-selector-no-empty": "1.0.7",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0"
   },
-  "linters": {
-    "react/**/*.{css,scss}": [
-      "stylelint 'src/**/*.css' 'src/**/*.scss' --ignore-path .gitignore --config .stylelintrc",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "lint-staged"
-    }
-  },
+  "pre-commit": [
+    "lint-js",
+    "lint-css",
+    "test"
+  ],
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
     ],
-    "coverageReporters": ["text"]
+    "coverageReporters": [
+      "text"
+    ]
   }
 }

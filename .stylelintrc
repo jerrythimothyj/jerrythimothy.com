@@ -1,0 +1,53 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["stylelint-config-recommended", "stylelint-config-recommended-scss", "stylelint-8-point-grid"],
+  "plugins": [
+     "stylelint-scss",
+     "stylelint-order",
+    "stylelint-color-format",
+    "stylelint-declaration-block-no-ignored-properties",
+    "stylelint-declaration-strict-value",
+    "stylelint-declaration-use-variable",
+    "stylelint-group-selectors",
+    "stylelint-no-indistinguishable-colors",
+    "stylelint-selector-bem-pattern",
+    "stylelint-selector-no-empty",
+  ],
+  "rules": {
+     "scss/at-rule-no-unknown": true,
+
+      "order/properties-alphabetical-order": true,
+
+      "plugin/8-point-grid": [
+      {
+        "base": 4,
+        "whitelist": ["2px", "1px", "-2px", "-1px"]
+      }
+    ],
+
+      "color-format/format": [
+      {
+        "format": "rgba"
+      }
+    ],
+
+      "plugin/declaration-block-no-ignored-properties": true,
+
+      "scale-unlimited/declaration-strict-value": [["/color/", "z-index", "font-size"]],
+
+      "sh-waqar/declaration-use-variable": [["/color/", "z-index", "font-size"]],
+
+      "plugin/stylelint-group-selectors": true,
+
+      "plugin/stylelint-no-indistinguishable-colors": true,
+
+      "plugin/selector-bem-pattern": [
+      {
+        "preset": "bem"
+      }
+    ],
+
+      "plugin/stylelint-selector-no-empty": true
+  }
+
+  }  

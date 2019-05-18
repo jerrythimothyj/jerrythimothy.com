@@ -6,6 +6,10 @@ phases:
       - npm install
   build:
     commands:
+      - echo Lint-JS started on `date`
+      - npm run lint-js
+      - echo Lint-CSS started on `date`
+      - npm run lint-css
       - echo Build started on `date`
       - npm run build
   post_build:

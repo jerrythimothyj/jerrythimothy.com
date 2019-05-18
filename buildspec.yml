@@ -10,6 +10,8 @@ phases:
       - npm run build
   post_build:
     commands:
+      # Delete object from bucket
+      - aws s3 rm s3://jerrythimothy.com/**/* --recursive
       # copy the contents of /build to S3
       - aws s3 cp --recursive --acl public-read ./build s3://jerrythimothy.com/ 
       # set the cache-control headers for service-worker.js to prevent

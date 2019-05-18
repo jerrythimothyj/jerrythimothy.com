@@ -17,7 +17,7 @@ phases:
       # Delete object from bucket
       - aws s3 rm --recursive s3://jerrythimothy.com/ 
       # copy the contents of /build to S3
-      - aws s3 cp --recursive --acl public-read ./build s3://jerrythimothy.com/ 
+      - aws s3 cp --recursive ./build s3://jerrythimothy.com/ 
       # set the cache-control headers for service-worker.js to prevent
       # browser caching
       # - >

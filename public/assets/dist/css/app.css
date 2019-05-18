@@ -258,7 +258,10 @@
         font-size: 26px;
     }
     .navbar-brand > img {
-        height: 45px;
+        height: 88px;
+        /* stylelint-disable */
+        margin: -18px auto;
+        /* stylelint-enable */
     }
 }
 

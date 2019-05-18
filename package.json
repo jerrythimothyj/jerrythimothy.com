@@ -19,7 +19,8 @@
     "test": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "lint-js": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
-    "lint-css": "stylelint 'src/**/*.css' 'src/**/*.scss' --ignore-path .gitignore --config .stylelintrc"
+    "lint-css": "stylelint 'src/**/*.css' 'src/**/*.scss' --ignore-path .gitignore --config .stylelintrc",
+    "check-readiness": "npm run lint-js && npm run lint-css && npm run test && exit 1"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -59,9 +60,7 @@
     "tslint-react": "^4.0.0"
   },
   "pre-commit": [
-    "lint-js",
-    "lint-css",
-    "test"
+    "check-readiness"
   ],
   "jest": {
     "collectCoverageFrom": [

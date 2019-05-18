@@ -9,5 +9,5 @@ it('renders without crashing', () => {
 })
 
 it('renders without crashing', () => {
-  expect(2+2).toEqual(3)
+  expect(2 + 2).toEqual(3)
 })

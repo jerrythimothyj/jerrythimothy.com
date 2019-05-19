@@ -2,6 +2,7 @@ import React from 'react'
 import MessageNotification from './components/MessageNotification'
 import MessageNotificationModal from './components/MessageNotificationModal'
 import PlacesWorked from './components/PlacesWorked/PlacesWorked'
+import LinkedInRecommendations from "./components/LinkedInRecommendations"
 
 const App: React.FC = () => {
   return (
@@ -243,108 +244,7 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-              <div className="panel panel-bd lobidisable">
-                <div className="panel-heading">
-                  <div className="panel-title">
-                    <i className="ti-email" />
-                    <h4>Messages</h4>
-                  </div>
-                </div>
-                <div className="panel-body">
-                  <div className="message_inner">
-                    <div className="message_widgets">
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Naeem Khan</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status available pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar2.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Sala Uddin</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status away pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar3.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Mozammel Hoque</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status busy pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar4.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Tanzil Ahmed</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status offline pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar5.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Amir Khan</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status available pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Salman Khan</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status available pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Naeem Khan</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status available pull-right" />
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="inbox-item">
-                          <div className="inbox-item-img">
-                            <img src="assets/dist/img/avatar4.png" className="img-circle" alt="" />
-                          </div>
-                          <strong className="inbox-item-author">Tanzil Ahmed</strong>
-                          <span className="inbox-item-date">-13:40 PM</span>
-                          <p className="inbox-item-text">Hey! there I'm available...</p>
-                          <span className="profile-status offline pull-right" />
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <LinkedInRecommendations />
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
               <div className="panel panel-bd lobidisable">

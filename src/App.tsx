@@ -1,6 +1,7 @@
 import React from 'react'
-import MessageNotification from "./components/MessageNotification"
-import MessageNotificationModal from "./components/MessageNotificationModal"
+import MessageNotification from './components/MessageNotification'
+import MessageNotificationModal from './components/MessageNotificationModal'
+import PlacesWorked from './components/PlacesWorked/PlacesWorked'
 
 const App: React.FC = () => {
   return (
@@ -512,11 +513,7 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-9">
-              <div className="panel panel-bd">
-                <div className="panel-body">
-                  <div id="chartMap" />
-                </div>
-              </div>
+              <PlacesWorked />
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-9">
               <div className="panel panel-bd lobidrag">

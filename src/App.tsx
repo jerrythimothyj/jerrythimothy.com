@@ -1,4 +1,6 @@
 import React from 'react'
+import MessageNotification from "./components/MessageNotification"
+import MessageNotificationModal from "./components/MessageNotificationModal"
 
 const App: React.FC = () => {
   return (
@@ -27,72 +29,7 @@ const App: React.FC = () => {
             </li>
           </ul>
           <ul className="nav navbar-top-links navbar-right">
-            <li className="dropdown">
-              <a className="dropdown-toggle" data-toggle="dropdown" href="#">
-                <i className="material-icons">chat</i>
-                <span className="label label-danger">9</span>
-              </a>
-              <ul className="dropdown-menu dropdown-messages">
-                <li className="rad-dropmenu-header">
-                  <a href="#">New Messages</a>
-                </li>
-                <li>
-                  <a href="#" className="rad-content">
-                    <div className="inbox-item">
-                      <div className="inbox-item-img">
-                        <img src="assets/dist/img/avatar.png" className="img-circle" alt="" />
-                      </div>
-                      <strong className="inbox-item-author">Naeem Khan</strong>
-                      <span className="inbox-item-date">-13:40 PM</span>
-                      <p className="inbox-item-text">Hey! there I'm available...</p>
-                      <span className="profile-status available pull-right" />
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="rad-content">
-                    <div className="inbox-item">
-                      <div className="inbox-item-img">
-                        <img src="assets/dist/img/avatar2.png" className="img-circle" alt="" />
-                      </div>
-                      <strong className="inbox-item-author">Sala Uddin</strong>
-                      <span className="inbox-item-date">-13:40 PM</span>
-                      <p className="inbox-item-text">Hey! there I'm available...</p>
-                      <span className="profile-status away pull-right" />
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="rad-content">
-                    <div className="inbox-item">
-                      <div className="inbox-item-img">
-                        <img src="assets/dist/img/avatar3.png" className="img-circle" alt="" />
-                      </div>
-                      <strong className="inbox-item-author">Mozammel</strong>
-                      <span className="inbox-item-date">-13:40 PM</span>
-                      <p className="inbox-item-text">Hey! there I'm available...</p>
-                      <span className="profile-status busy pull-right" />
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="rad-content">
-                    <div className="inbox-item">
-                      <div className="inbox-item-img">
-                        <img src="assets/dist/img/avatar4.png" className="img-circle" alt="" />
-                      </div>
-                      <strong className="inbox-item-author">Tanzil Ahmed</strong>
-                      <span className="inbox-item-date">-13:40 PM</span>
-                      <p className="inbox-item-text">Hey! there I'm available...</p>
-                      <span className="profile-status offline pull-right" />
-                    </div>
-                  </a>
-                </li>
-                <li className="rad-dropmenu-footer">
-                  <a href="#">View All messages</a>
-                </li>
-              </ul>
-            </li>
+            <MessageNotification />
             <li className="dropdown">
               <a className="dropdown-toggle" data-toggle="dropdown" href="#">
                 <i className="material-icons">add_alert</i>
@@ -762,6 +699,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </div>
+      <MessageNotificationModal />
     </div>
   )
 }

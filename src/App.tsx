@@ -5,6 +5,7 @@ import MessageNotificationModal from './components/MessageNotificationModal'
 import Sidebar from './components/Sidebar/Sidebar'
 import Dashboard from './components/Dashboard'
 import Pricing from './components/Pricing'
+import Employment from './components/Employment'
 
 class App extends React.Component {
   render() {
@@ -103,6 +104,7 @@ class App extends React.Component {
           <Sidebar />
           <Route exact path="/" component={Dashboard} />
           <Route exact path="/pricing" component={Pricing} />
+          <Route exact path="/employment" component={Employment} />
         </Router>
         <MessageNotificationModal />
       </div>

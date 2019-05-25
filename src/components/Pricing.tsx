@@ -1,7 +1,7 @@
 import React from 'react'
 
 class Pricing extends React.Component {
-  render() {
+  public render() {
     return (
       <div id="page-wrapper">
         <div className="content">
@@ -122,18 +122,12 @@ class Pricing extends React.Component {
           <div className="col-sm-12 col-md-12">
             <div className="panel panel-bd lobidrag">
               <div className="panel-body">
-              <div className="panel-title">
+                <div className="panel-title">
                   <h4>Note</h4>
                 </div>
-                <p>
-                  - Deployment can be done at extra cost.
-                </p>
-                <p>
-                  - Maintenance cost on Business and Advanced plan.
-                </p>
-                <p>
-                  - Extra pages on Home, Business and Advanced plan costs extra.
-                </p>
+                <p>- Deployment can be done at extra cost.</p>
+                <p>- Maintenance cost on Business and Advanced plan.</p>
+                <p>- Extra pages on Home, Business and Advanced plan costs extra.</p>
               </div>
             </div>
           </div>

@@ -1,9 +1,9 @@
 import React from 'react'
-import PlacesWorked from './PlacesWorked/PlacesWorked'
 import LinkedInRecommendations from './LinkedInRecommendations'
+import PlacesWorked from './PlacesWorked/PlacesWorked'
 
 class Dashboard extends React.Component {
-  render() {
+  public render() {
     return (
       <div id="page-wrapper">
         <div className="content">

@@ -36,6 +36,17 @@ class App extends React.Component {
                 </a>
               </li>
             </ul>
+            <ul className="nav navbar-nav">
+              <li>
+                <a
+                  href="http://bigjapps.com/resume/RESUME%20JERRY%20THIMOTHY%20J.pdf"
+                  target="_blank"
+                  className="btn-buy"
+                >
+                  <i className="pe-7s-id" /> Download Resume
+                </a>
+              </li>
+            </ul>
             <ul className="nav navbar-top-links navbar-right">
               <MessageNotification />
               <li className="dropdown">

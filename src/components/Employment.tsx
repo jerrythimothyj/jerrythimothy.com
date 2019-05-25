@@ -61,56 +61,7 @@ const Employment: React.FC = () => (
 
             <div className="events-content">
               <ol>
-                <li className="selected" data-date="14/05/2012">
-                  <h2>Tech Lead - UI</h2>
-                  <em>Ephicacy Lifesciences Analytics</em>
-                  <p>
-                    Enterprise Applications
-                    <br />
-                    Development of Front End, write Tests and Deploy in the production environment.
-                  </p>
-                  <p>
-                    React 16.7.1/Redux/MobX/Lodash
-                    <br />
-                    HTML5/CSS3/Bootstrap
-                    <br />
-                    Jest - Enzyme/Jest - Puppeteer
-                  </p>
-                </li>
-                <li data-date="06/01/2016">
-                  <h2>Senior Consultant</h2>
-                  <em>XEBIA IT ARCHITECTS</em>
-                  <p>
-                    Enterprise Applications
-                    <br />
-                    Development of Front End, write Tests and Deploy in the production environment.
-                  </p>
-                  <p>
-                    React 16.4.1/Redux-Saga/Ramda
-                    <br />
-                    Angular 1.6.3
-                    <br />
-                    HTML5/CSS3/Bootstrap/RTL
-                    <br />
-                    Jest - Enzyme/CoffeeScript - Jasmine/Protractor-Selenium/Karma - Jasmine
-                  </p>
-                </li>
-                <li data-date="23/03/2017">
-                  <h2>Systems Engineer</h2>
-                  <em>TATA CONSULTANCY SERVICES</em>
-                  <p>
-                    Development of Front End, write Unit Tests and Deploy in the production
-                    environment.
-                  </p>
-                  <p>
-                    Angular 1.5.8
-                    <br />
-                    HTML5/CSS3/Bootstrap 3<br />
-                    Javascript ES6/Karma - Jasmine
-                  </p>
-                </li>
-
-                <li data-date="17/12/2018">
+                <li className="selected" data-date="14/05/2012 ">
                   <h2>Software Engineer</h2>
                   <em>ADELA SOFTWARE & SERVICES</em>
                   <p>
@@ -130,6 +81,54 @@ const Employment: React.FC = () => (
                     <br />
                     C# Forms ( Dotnet Framework 2.0 )<br />
                     XML 1.0
+                  </p>
+                </li>
+                <li data-date="06/01/2016">
+                  <h2>Systems Engineer</h2>
+                  <em>TATA CONSULTANCY SERVICES</em>
+                  <p>
+                    Development of Front End, write Unit Tests and Deploy in the production
+                    environment.
+                  </p>
+                  <p>
+                    Angular 1.5.8
+                    <br />
+                    HTML5/CSS3/Bootstrap 3<br />
+                    Javascript ES6/Karma - Jasmine
+                  </p>
+                </li>
+                <li data-date="23/03/2017">
+                  <h2>Senior Consultant</h2>
+                  <em>XEBIA IT ARCHITECTS</em>
+                  <p>
+                    Enterprise Applications
+                    <br />
+                    Development of Front End, write Tests and Deploy in the production environment.
+                  </p>
+                  <p>
+                    React 16.4.1/Redux-Saga/Ramda
+                    <br />
+                    Angular 1.6.3
+                    <br />
+                    HTML5/CSS3/Bootstrap/RTL
+                    <br />
+                    Jest - Enzyme/CoffeeScript - Jasmine/Protractor-Selenium/Karma - Jasmine
+                  </p>
+                </li>
+                <li data-date="17/12/2018">
+                  <h2>Tech Lead - UI</h2>
+                  <em>Ephicacy Lifesciences Analytics</em>
+                  <p>
+                    Enterprise Applications
+                    <br />
+                    Development of Front End, write Tests and Deploy in the production environment.
+                  </p>
+                  <p>
+                    React 16.7.1/Redux/MobX/Lodash
+                    <br />
+                    HTML5/CSS3/Bootstrap
+                    <br />
+                    Jest - Enzyme/Jest - Puppeteer
                   </p>
                 </li>
               </ol>

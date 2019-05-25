@@ -1,0 +1,15 @@
+$color-red: rgb(249, 25, 66);
+$color-white: white;
+$color-bg: rgba(255, 255, 255, 0.09);
+
+.sidebar ul li {
+  border-left: 0;
+
+  a {
+    &.selected {
+      background-color: $color-bg;
+      border-left: 3px solid $color-red;
+      color: $color-white;
+    }
+  }
+}

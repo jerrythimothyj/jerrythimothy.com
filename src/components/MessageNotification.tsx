@@ -1,7 +1,7 @@
 import React from 'react'
 
-const MessageNotification: React.FC = () => {
-  return (
+const MessageNotification: React.FC = () => 
+   (
     <li className="dropdown">
       <a className="dropdown-toggle" data-toggle="dropdown" href="#">
         <i className="material-icons">chat</i>
@@ -36,6 +36,6 @@ const MessageNotification: React.FC = () => {
       </ul>
     </li>
   )
-}
+
 
 export default MessageNotification

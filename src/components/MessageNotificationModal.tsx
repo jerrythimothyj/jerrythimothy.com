@@ -1,7 +1,7 @@
 import React from 'react'
 
-const MessageNotificationModal: React.FC = () => {
-  return (
+const MessageNotificationModal: React.FC = () => 
+   (
     <div className="modal fade" id="messageNotificationModal" role="dialog">
       <div className="modal-dialog" role="document">
         <div className="modal-content">
@@ -17,6 +17,6 @@ const MessageNotificationModal: React.FC = () => {
       </div>
     </div>
   )
-}
+
 
 export default MessageNotificationModal

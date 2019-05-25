@@ -1,7 +1,7 @@
 import React from 'react'
 
-const LinkedInRecommendations: React.FC = () => {
-  return (
+const LinkedInRecommendations: React.FC = () => 
+   (
     <div className="panel panel-bd lobidisable">
       <div className="panel-heading">
         <div className="panel-title">
@@ -12,7 +12,7 @@ const LinkedInRecommendations: React.FC = () => {
       <div className="panel-body">
         <div className="message_inner">
           <div className="message_widgets">
-            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank">
+            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank" rel="noopener noreferrer">
               <div className="inbox-item">
                 <div className="inbox-item-img">
                   <img
@@ -26,7 +26,7 @@ const LinkedInRecommendations: React.FC = () => {
                 <p className="inbox-item-text">Jerry was a wonderful resource...</p>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank">
+            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank" rel="noopener noreferrer">
               <div className="inbox-item">
                 <div className="inbox-item-img">
                   <img
@@ -40,7 +40,7 @@ const LinkedInRecommendations: React.FC = () => {
                 <p className="inbox-item-text">Jerry is a very hardworking...</p>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank">
+            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank" rel="noopener noreferrer">
               <div className="inbox-item">
                 <div className="inbox-item-img">
                   <img
@@ -54,7 +54,7 @@ const LinkedInRecommendations: React.FC = () => {
                 <p className="inbox-item-text">Extreme helpful Co-Worker!...</p>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank">
+            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank" rel="noopener noreferrer">
               <div className="inbox-item">
                 <div className="inbox-item-img">
                   <img
@@ -82,7 +82,7 @@ const LinkedInRecommendations: React.FC = () => {
                 <p className="inbox-item-text">A highly skilled Developer,...</p>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank">
+            <a href="https://www.linkedin.com/in/jerrythimothyj/" target="_blank" rel="noopener noreferrer">
               <div className="inbox-item">
                 <div className="inbox-item-img">
                   <img
@@ -101,6 +101,5 @@ const LinkedInRecommendations: React.FC = () => {
       </div>
     </div>
   )
-}
 
 export default LinkedInRecommendations

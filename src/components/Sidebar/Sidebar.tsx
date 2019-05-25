@@ -17,6 +17,11 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">attach_money</i> Pricing
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/employment" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">work</i> Employment
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>

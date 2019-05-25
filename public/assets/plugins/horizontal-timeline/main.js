@@ -139,7 +139,7 @@ jQuery(document).ready(function ($) {
     function setTimelineWidth(timelineComponents, width) {
         var timeSpan = daydiff(timelineComponents['timelineDates'][0], timelineComponents['timelineDates'][timelineComponents['timelineDates'].length - 1]),
                 timeSpanNorm = timeSpan / timelineComponents['eventsMinLapse'],
-                timeSpanNorm = Math.round(timeSpanNorm) + 4,
+                timeSpanNorm = Math.round(timeSpanNorm) + 7,
                 totalWidth = timeSpanNorm * width;
         timelineComponents['eventsWrapper'].css('width', totalWidth + 'px');
         updateFilling(timelineComponents['eventsWrapper'].find('a.selected'), timelineComponents['fillingLine'], totalWidth);

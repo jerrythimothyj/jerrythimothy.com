@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard'
 import Pricing from './components/Pricing'
 import Employment from './components/Employment'
 import Academic from './components/Academic'
+import Blog from './components/Blog/Blog'
 
 class App extends React.Component {
   render() {
@@ -107,6 +108,7 @@ class App extends React.Component {
           <Route exact path="/pricing" component={Pricing} />
           <Route exact path="/employment" component={Employment} />
           <Route exact path="/academic" component={Academic} />
+          <Route exact path="/blog" component={Blog} />
         </Router>
         <MessageNotificationModal />
       </div>

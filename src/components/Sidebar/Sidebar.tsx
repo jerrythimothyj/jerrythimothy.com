@@ -48,6 +48,16 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">school</i> Academic
             </a>
           </li>
+          {/* <li>
+            <NavLink to="/blog" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">school</i> Academic
+            </NavLink>
+          </li> */}
+          <li>
+            <a href="/blog" className="material-ripple">
+              <i className="material-icons">view_list</i> Blog
+            </a>
+          </li>
         </ul>
       </div>
     </div>

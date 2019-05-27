@@ -8,11 +8,20 @@ const Sidebar: React.FC = () => (
       <div className="sidebar-nav navbar-collapse">
         <ul className="nav" id="side-menu">
           {/* <li>
+            <NavLink to="/career" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">directions_run</i> Career
+            </NavLink>
+          </li> */}
+          <li>
+            <a href="/career" className="material-ripple">
+              <i className="material-icons">directions_run</i> Career
+            </a>
+          </li>
+          {/* <li>
             <NavLink to="/" className="material-ripple" activeClassName="selected">
               <i className="material-icons">home</i> Dashboard
             </NavLink>
           </li> */}
-
           <li>
             <a href="/" className="material-ripple">
               <i className="material-icons">home</i> Dashboard

@@ -2,7 +2,7 @@ import React from 'react'
 import './Blog.scss'
 
 const Blog: React.FC = () => (
-  <div id="page-wrapper">
+  <div id="page-wrapper" className="blog">
     <div className="content">
       <div className="content-header">
         <div className="header-icon">

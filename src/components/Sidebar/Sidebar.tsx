@@ -28,6 +28,16 @@ const Sidebar: React.FC = () => (
             </a>
           </li>
           {/* <li>
+            <NavLink to="/learning" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">lightbulb_outline</i> Learning
+            </NavLink>
+          </li> */}
+          <li>
+            <a href="/learning" className="material-ripple">
+              <i className="material-icons">lightbulb_outline</i> Learning
+            </a>
+          </li>
+          {/* <li>
             <NavLink to="/" className="material-ripple" activeClassName="selected">
               <i className="material-icons">home</i> Dashboard
             </NavLink>
@@ -37,7 +47,7 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">home</i> Dashboard
             </a>
           </li> */}
-          
+
           {/* <li>
             <NavLink to="/employment" className="material-ripple" activeClassName="selected">
               <i className="material-icons">work</i> Employment
@@ -68,7 +78,7 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">view_list</i> Blog
             </a>
           </li>
-          
+
           {/* <li>
             <NavLink to="/pricing" className="material-ripple" activeClassName="selected">
               <i className="material-icons">attach_money</i> Pricing

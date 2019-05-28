@@ -2,6 +2,10 @@ version: 0.1
 phases:
   pre_build:
     commands:
+      - echo Checking node version...
+      - node -v
+      - echo Checking npm version...
+      - npm -v
       - echo Installing source NPM dependencies...
       - npm install
   build:
@@ -16,12 +20,12 @@ phases:
       - npm run build
   post_build:
     commands:
-      - echo List the project files
-      - ls
-      - echo List the bucket files
-      - aws s3 ls s3://jerrythimothy.com
-      # - aws s3 rm --recursive s3://jerrythimothy.com/
-      - aws s3 sync build/ s3://jerrythimothy.com   
+      # - - echo List the project files
+      # - - ls
+      # - - echo List the bucket files
+      # - - aws s3 ls s3://jerrythimothy.com
+      ## - aws s3 rm --recursive s3://jerrythimothy.com/
+      # - - aws s3 sync build/ s3://jerrythimothy.com   
 artifacts:
   files:
     - '**/*'

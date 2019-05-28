@@ -60,7 +60,7 @@ const Career: React.FC = () => (
                 <div>
                   <p>Projects:</p>
                   <i className="fa fa-code" />
-                  <span>10</span>
+                  <span>15</span>
                 </div>
                 <div>
                   <p>Looking for job:</p>

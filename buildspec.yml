@@ -24,7 +24,7 @@ phases:
       - ls
       - echo List the bucket files
       - aws s3 ls s3://jerrythimothy.com
-      # - aws s3 rm --recursive s3://jerrythimothy.com/
+      - aws s3 rm --recursive s3://jerrythimothy.com/
       - aws s3 sync build/ s3://jerrythimothy.com   
 artifacts:
   files:

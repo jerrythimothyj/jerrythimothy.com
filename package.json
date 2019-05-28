@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-n-deploy": "npm run build && aws s3 rm --recursive s3://jerrythimothy.com && aws s3 sync build/ s3://jerrythimothy.com",
+    "build-n-deploy": "npm run build && aws s3 sync build/ s3://jerrythimothy.com",
     "test": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "lint-js": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",

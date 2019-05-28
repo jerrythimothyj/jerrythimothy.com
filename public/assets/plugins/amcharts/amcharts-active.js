@@ -602,7 +602,7 @@ $(document).ready(function () {
 
 
     //Column chart with images on top
-    var chart = AmCharts.makeChart("columnn",
+    var chart = AmCharts.makeChart("column",
             {
                 "type": "serial",
                 "theme": "light",

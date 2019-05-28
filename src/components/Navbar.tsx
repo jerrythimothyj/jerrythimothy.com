@@ -13,7 +13,7 @@ const Navbar: React.FC = () => (
         <span className="sr-only">Toggle navigation</span>
         <i className="material-icons">apps</i>
       </button>
-      <a className="navbar-brand" href="index.html">
+      <a className="navbar-brand" href="/">
         <img className="main-logo" src="assets/dist/img/JLOGO.png" id="bg" alt="" />
       </a>
     </div>

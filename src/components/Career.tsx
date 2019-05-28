@@ -29,7 +29,7 @@ const Career: React.FC = () => (
                 <h4 className="m-t-0">Jerry Thimothy J</h4>
                 <p className="m-0">
                   <i className="pe-7s-map-marker" />
-                  India
+                  Tiruchirappalli, India
                 </p>
               </div>
               <div className="card-content-languages">

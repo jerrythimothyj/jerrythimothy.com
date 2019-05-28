@@ -17,12 +17,12 @@ class App extends React.Component {
         <Navbar />
         <Router>
           <Sidebar />
-          <Route exact path="/" component={Dashboard} />
+          {/* <Route exact path="/" component={Dashboard} /> */}
           <Route exact path="/pricing" component={Pricing} />
           <Route exact path="/employment" component={Employment} />
           <Route exact path="/academic" component={Academic} />
           <Route exact path="/blog" component={Blog} />
-          <Route exact path="/career" component={Career} />
+          <Route path="/" component={Career} />
         </Router>
         <MessageNotificationModal />
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import CareerLocations from '../CareerLocations/CareerLocations'
-import "./Career.scss"
+import './Career.scss'
 
 const Career: React.FC = () => (
   <div id="page-wrapper">

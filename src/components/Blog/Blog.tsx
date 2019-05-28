@@ -52,7 +52,7 @@ const Blog: React.FC = () => (
                   target="_blank"
                 >
                   <h4>
-                  <i className="fa fa-eye" /> View more
+                    <i className="fa fa-eye" /> View more
                   </h4>
                 </a>
               </div>
@@ -97,7 +97,7 @@ const Blog: React.FC = () => (
                   target="_blank"
                 >
                   <h4>
-                  <i className="fa fa-eye" /> View more
+                    <i className="fa fa-eye" /> View more
                   </h4>
                 </a>
               </div>
@@ -142,7 +142,7 @@ const Blog: React.FC = () => (
                   target="_blank"
                 >
                   <h4>
-                  <i className="fa fa-eye" /> View more
+                    <i className="fa fa-eye" /> View more
                   </h4>
                 </a>
               </div>
@@ -187,7 +187,7 @@ const Blog: React.FC = () => (
                   target="_blank"
                 >
                   <h4>
-                  <i className="fa fa-eye" /> View more
+                    <i className="fa fa-eye" /> View more
                   </h4>
                 </a>
               </div>
@@ -206,8 +206,7 @@ const Blog: React.FC = () => (
             </div>
             <div className="card-content">
               <div className="card-content-member">
-                <h4 className="m-t-0">Simple buttons with HTML and CSS
-</h4>
+                <h4 className="m-t-0">Simple buttons with HTML and CSS</h4>
               </div>
               <div className="card-content-languages">
                 <div className="card-content-languages-group">

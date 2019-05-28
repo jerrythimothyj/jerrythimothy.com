@@ -22,11 +22,11 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">home</i> Dashboard
             </NavLink>
           </li> */}
-          <li>
+          {/* <li>
             <a href="/" className="material-ripple">
               <i className="material-icons">home</i> Dashboard
             </a>
-          </li>
+          </li> */}
           {/* <li>
             <NavLink to="/pricing" className="material-ripple" activeClassName="selected">
               <i className="material-icons">attach_money</i> Pricing

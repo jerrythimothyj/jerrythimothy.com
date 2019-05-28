@@ -8,12 +8,12 @@ const Sidebar: React.FC = () => (
       <div className="sidebar-nav navbar-collapse">
         <ul className="nav" id="side-menu">
           {/* <li>
-            <NavLink to="/career" className="material-ripple" activeClassName="selected">
+            <NavLink to="/" className="material-ripple" activeClassName="selected">
               <i className="material-icons">directions_run</i> Career
             </NavLink>
           </li> */}
           <li>
-            <a href="/career" className="material-ripple">
+            <a href="/" className="material-ripple">
               <i className="material-icons">directions_run</i> Career
             </a>
           </li>
@@ -59,12 +59,22 @@ const Sidebar: React.FC = () => (
           </li>
           {/* <li>
             <NavLink to="/blog" className="material-ripple" activeClassName="selected">
-              <i className="material-icons">school</i> Academic
+              <i className="material-icons">view_list</i> Academic
             </NavLink>
           </li> */}
           <li>
             <a href="/blog" className="material-ripple">
               <i className="material-icons">view_list</i> Blog
+            </a>
+          </li>
+          {/* <li>
+            <NavLink to="/technologies" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">code</i> Technologies
+            </NavLink>
+          </li> */}
+          <li>
+            <a href="/technologies" className="material-ripple">
+              <i className="material-icons">code</i> Technologies
             </a>
           </li>
         </ul>

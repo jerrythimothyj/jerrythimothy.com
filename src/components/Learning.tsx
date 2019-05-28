@@ -13,7 +13,7 @@ const Learning: React.FC = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-4">
           <div className="panel panel-bd">
             <div className="panel-body">
               <div id="carousel-1" className="carousel slide" data-ride="carousel">
@@ -66,7 +66,7 @@ const Learning: React.FC = () => (
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-4">
           <div className="panel panel-bd">
             <div className="panel-body">
               <div id="carousel-2" className="carousel slide" data-ride="carousel">
@@ -118,7 +118,7 @@ const Learning: React.FC = () => (
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-4">
           <div className="panel panel-bd">
             <div className="panel-body">
               <div id="carousel-3" className="carousel slide" data-ride="carousel">
@@ -170,7 +170,7 @@ const Learning: React.FC = () => (
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-4">
           <div className="panel panel-bd">
             <div className="panel-body">
               <div id="carousel-4" className="carousel slide" data-ride="carousel">

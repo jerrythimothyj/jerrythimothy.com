@@ -11,10 +11,7 @@ const MessageNotification: React.FC = () => (
         <a href="#">New Messages</a>
       </li>
       <li>
-        <a
-          href="/pricing"
-          className="rad-content" 
-        >
+        <a href="/pricing" className="rad-content">
           <div className="inbox-item">
             <div className="inbox-item-img">
               <img

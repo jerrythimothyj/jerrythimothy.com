@@ -35,7 +35,8 @@ const Pricing: React.FC = () => (
                 <li>Roadmap</li>
               </ul>
               <button className="button center-block">
-                <a className="fa-inverse"
+                <a
+                  className="fa-inverse"
                   href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
                   target="_blank"
                 >
@@ -68,7 +69,8 @@ const Pricing: React.FC = () => (
                 <li>Free maintenance</li>
               </ul>
               <button className="button center-block">
-                <a className="fa-inverse"
+                <a
+                  className="fa-inverse"
                   href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
                   target="_blank"
                 >
@@ -100,7 +102,8 @@ const Pricing: React.FC = () => (
                 <li>No domain / hosting</li>
               </ul>
               <button className="button center-block">
-                <a className="fa-inverse"
+                <a
+                  className="fa-inverse"
                   href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
                   target="_blank"
                 >
@@ -132,7 +135,8 @@ const Pricing: React.FC = () => (
                 <li>No domain / hosting</li>
               </ul>
               <button className="button center-block">
-                <a className="fa-inverse"
+                <a
+                  className="fa-inverse"
                   href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
                   target="_blank"
                 >

@@ -18,6 +18,16 @@ const Sidebar: React.FC = () => (
             </a>
           </li>
           {/* <li>
+            <NavLink to="/technology" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">code</i> Technology
+            </NavLink>
+          </li> */}
+          <li>
+            <a href="/technology" className="material-ripple">
+              <i className="material-icons">code</i> Technology
+            </a>
+          </li>
+          {/* <li>
             <NavLink to="/" className="material-ripple" activeClassName="selected">
               <i className="material-icons">home</i> Dashboard
             </NavLink>
@@ -27,16 +37,7 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">home</i> Dashboard
             </a>
           </li> */}
-          {/* <li>
-            <NavLink to="/pricing" className="material-ripple" activeClassName="selected">
-              <i className="material-icons">attach_money</i> Pricing
-            </NavLink>
-          </li> */}
-          <li>
-            <a href="/pricing" className="material-ripple">
-              <i className="material-icons">attach_money</i> Pricing
-            </a>
-          </li>
+          
           {/* <li>
             <NavLink to="/employment" className="material-ripple" activeClassName="selected">
               <i className="material-icons">work</i> Employment
@@ -67,14 +68,15 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">view_list</i> Blog
             </a>
           </li>
+          
           {/* <li>
-            <NavLink to="/technologies" className="material-ripple" activeClassName="selected">
-              <i className="material-icons">code</i> Technologies
+            <NavLink to="/pricing" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">attach_money</i> Pricing
             </NavLink>
           </li> */}
           <li>
-            <a href="/technologies" className="material-ripple">
-              <i className="material-icons">code</i> Technologies
+            <a href="/pricing" className="material-ripple">
+              <i className="material-icons">attach_money</i> Pricing
             </a>
           </li>
         </ul>

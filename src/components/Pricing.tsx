@@ -34,7 +34,14 @@ const Pricing: React.FC = () => (
                 <li>Resource allocation</li>
                 <li>Roadmap</li>
               </ul>
-              <button className="button center-block">Buy Now</button>
+              <button className="button center-block">
+                <a className="fa-inverse"
+                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
+                  target="_blank"
+                >
+                  Buy Now
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -60,7 +67,14 @@ const Pricing: React.FC = () => (
                 <li>No domain / hosting</li>
                 <li>Free maintenance</li>
               </ul>
-              <button className="button center-block">Buy Now</button>
+              <button className="button center-block">
+                <a className="fa-inverse"
+                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
+                  target="_blank"
+                >
+                  Buy Now
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -85,7 +99,14 @@ const Pricing: React.FC = () => (
                 <li>JQuery / Angular / React / Vue</li>
                 <li>No domain / hosting</li>
               </ul>
-              <button className="button center-block">Buy Now</button>
+              <button className="button center-block">
+                <a className="fa-inverse"
+                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
+                  target="_blank"
+                >
+                  Buy Now
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -110,7 +131,14 @@ const Pricing: React.FC = () => (
                 <li>MongoDB / MySQL</li>
                 <li>No domain / hosting</li>
               </ul>
-              <button className="button center-block">Buy Now</button>
+              <button className="button center-block">
+                <a className="fa-inverse"
+                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
+                  target="_blank"
+                >
+                  Buy Now
+                </a>
+              </button>
             </div>
           </div>
         </div>

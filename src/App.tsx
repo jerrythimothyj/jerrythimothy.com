@@ -8,8 +8,8 @@ import Employment from './components/Employment'
 import Academic from './components/Academic'
 import Blog from './components/Blog/Blog'
 import Navbar from './components/Navbar'
-import Career from './components/Career'
-import Technologies from './components/Technologies/Technologies'
+import Career from './components/Career/Career'
+import Technology from './components/Technology/Technology'
 
 class App extends React.Component {
   render() {
@@ -23,7 +23,7 @@ class App extends React.Component {
           <Route exact path="/employment" component={Employment} />
           <Route exact path="/academic" component={Academic} />
           <Route exact path="/blog" component={Blog} />
-          <Route exact path="/technologies" component={Technologies} />
+          <Route exact path="/technology" component={Technology} />
           <Route exact path="/" component={Career} />
         </Router>
         <MessageNotificationModal />

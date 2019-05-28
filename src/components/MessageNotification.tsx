@@ -12,10 +12,8 @@ const MessageNotification: React.FC = () => (
       </li>
       <li>
         <a
-          href="#"
-          className="rad-content"
-          data-toggle="modal"
-          data-target="#messageNotificationModal"
+          href="/pricing"
+          className="rad-content" 
         >
           <div className="inbox-item">
             <div className="inbox-item-img">

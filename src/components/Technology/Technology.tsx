@@ -1,8 +1,8 @@
 import React from 'react'
 import * as R from 'ramda'
-import './Technologies.scss'
+import './Technology.scss'
 
-class Technologies extends React.Component {
+class Technology extends React.Component {
   componentDidMount() {
     if (!R.isEmpty(R.prop('AmCharts', window))) {
       const AmCharts: any = R.prop('AmCharts', window)
@@ -490,8 +490,8 @@ class Technologies extends React.Component {
               <i className="pe-7s-gleam" />
             </div>
             <div className="header-title">
-              <h1>Technologies</h1>
-              <small>Technologies</small>
+              <h1>Technology</h1>
+              <small>Technology</small>
             </div>
           </div>
           <div className="row">
@@ -580,4 +580,4 @@ class Technologies extends React.Component {
   }
 }
 
-export default Technologies
+export default Technology

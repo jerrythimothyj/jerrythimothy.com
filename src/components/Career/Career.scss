@@ -1,0 +1,11 @@
+.card-footer-stats div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 25%;
+  flex: 1 0 25%;
+  padding: 0.75em;
+}
+
+.card-footer-stats div:nth-of-type(3) {
+  border-left: 1px solid rgb(62, 65, 66);
+  border-right: 1px solid rgb(62, 65, 66);
+}

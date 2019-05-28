@@ -84,7 +84,7 @@ const Blog: React.FC = () => (
                       <li>npm,</li>
                       <li>node-modules,</li>
                       <li>package-manager,</li>
-                      <li>nodea</li>
+                      <li>node</li>
                     </ul>
                   </div>
                 </div>

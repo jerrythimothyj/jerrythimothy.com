@@ -1,5 +1,6 @@
 import React from 'react'
-import CareerLocations from './CareerLocations/CareerLocations'
+import CareerLocations from '../CareerLocations/CareerLocations'
+import "./Career.scss"
 
 const Career: React.FC = () => (
   <div id="page-wrapper">
@@ -57,6 +58,11 @@ const Career: React.FC = () => (
             </div>
             <div className="card-footer">
               <div className="card-footer-stats">
+                <div>
+                  <p>Experience:</p>
+                  <i className="fa fa-history" />
+                  <span>7+</span>
+                </div>
                 <div>
                   <p>Projects:</p>
                   <i className="fa fa-code" />

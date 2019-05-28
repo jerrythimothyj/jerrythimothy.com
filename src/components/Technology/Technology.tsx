@@ -84,7 +84,7 @@ class Technology extends React.Component {
           categoryAxis: {
             axisAlpha: 0,
             gridAlpha: 0,
-            inside: true,
+            inside: false,
             tickLength: 0,
           },
           export: {
@@ -161,7 +161,7 @@ class Technology extends React.Component {
           categoryAxis: {
             axisAlpha: 0,
             gridAlpha: 0,
-            inside: true,
+            inside: false,
             tickLength: 0,
           },
           export: {
@@ -226,7 +226,7 @@ class Technology extends React.Component {
           categoryAxis: {
             axisAlpha: 0,
             gridAlpha: 0,
-            inside: true,
+            inside: false,
             tickLength: 0,
           },
           export: {
@@ -326,7 +326,7 @@ class Technology extends React.Component {
           categoryAxis: {
             axisAlpha: 0,
             gridAlpha: 0,
-            inside: true,
+            inside: false,
             tickLength: 0,
           },
           export: {
@@ -391,7 +391,7 @@ class Technology extends React.Component {
           categoryAxis: {
             axisAlpha: 0,
             gridAlpha: 0,
-            inside: true,
+            inside: false,
             tickLength: 0,
           },
           export: {
@@ -470,7 +470,7 @@ class Technology extends React.Component {
           categoryAxis: {
             axisAlpha: 0,
             gridAlpha: 0,
-            inside: true,
+            inside: false,
             tickLength: 0,
           },
           export: {

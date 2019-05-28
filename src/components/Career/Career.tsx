@@ -73,11 +73,6 @@ const Career: React.FC = () => (
                   <i className="fa fa-check" />
                   <span>Yes</span>
                 </div>
-                <div>
-                  <p>Freelancing:</p>
-                  <i className="fa fa-briefcase" />
-                  <span>Available</span>
-                </div>
               </div>
               <div className="card-footer-message">
                 <a

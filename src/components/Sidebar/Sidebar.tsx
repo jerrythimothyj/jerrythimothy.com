@@ -37,7 +37,6 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">lightbulb_outline</i> Learning
             </a>
           </li>
-          
 
           {/* <li>
             <NavLink to="/employment" className="material-ripple" activeClassName="selected">

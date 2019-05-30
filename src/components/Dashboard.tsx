@@ -12,7 +12,7 @@ const Dashboard: React.FC = () => (
         <div className="header-title">
           <h1>Dashboard</h1>
           <small>Dashboard</small>
-          </div>
+        </div>
       </div>
       <div className="row">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
@@ -21,7 +21,7 @@ const Dashboard: React.FC = () => (
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8">
           <PlacesWorked />
         </div>
-        </div>
+      </div>
     </div>
   </div>
 )

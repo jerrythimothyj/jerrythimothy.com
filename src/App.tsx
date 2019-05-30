@@ -19,7 +19,7 @@ class App extends React.Component {
         <Navbar />
         <Router>
           <Sidebar />
-          
+
           <Route exact={true} path="/pricing" component={Pricing} />
           <Route exact={true} path="/employment" component={Employment} />
           <Route exact={true} path="/academic" component={Academic} />

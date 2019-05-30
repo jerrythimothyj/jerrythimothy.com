@@ -12,6 +12,10 @@ import Pricing from './components/Pricing'
 import Sidebar from './components/Sidebar/Sidebar'
 import Technology from './components/Technology/Technology'
 
+import { checkAndSetMessageNotificationCount, setMessageNotificationCount } from './services'
+
+checkAndSetMessageNotificationCount(1)
+
 class App extends React.Component {
   public render() {
     return (

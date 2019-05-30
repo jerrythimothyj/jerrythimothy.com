@@ -94,7 +94,7 @@ class CareerLocations extends React.Component {
               },
               {
                 latitude: 52.1326,
-                longitude: 52.1326,
+                longitude: 5.2913,
                 svgPath: targetSVG,
                 title: 'Netherlands',
               },

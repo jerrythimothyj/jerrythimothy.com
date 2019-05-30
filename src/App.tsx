@@ -19,14 +19,15 @@ class App extends React.Component {
         <Navbar />
         <Router>
           <Sidebar />
-          {/* <Route exact path="/" component={Dashboard} /> */}
+
           <Route exact={true} path="/pricing" component={Pricing} />
           <Route exact={true} path="/employment" component={Employment} />
           <Route exact={true} path="/academic" component={Academic} />
           <Route exact={true} path="/blog" component={Blog} />
           <Route exact={true} path="/technology" component={Technology} />
           <Route exact={true} path="/learning" component={Learning} />
-          <Route exact={true} path="/" component={Career} />
+          <Route exact={true} path="/career" component={Career} />
+          <Route exact={true} path="/" component={Dashboard} />
         </Router>
         <MessageNotificationModal />
       </div>

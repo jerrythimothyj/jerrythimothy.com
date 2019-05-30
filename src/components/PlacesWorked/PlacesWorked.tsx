@@ -114,7 +114,7 @@ class PlacesWorked extends React.Component {
           theme: 'light',
           type: 'map',
 
-          projection: 'winkel3',
+          projection: 'worldLow',
         })
       }
     }

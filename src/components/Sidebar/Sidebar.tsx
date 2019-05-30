@@ -9,12 +9,12 @@ const Sidebar: React.FC = () => (
         <ul className="nav" id="side-menu">
           {/* <li>
             <NavLink to="/" className="material-ripple" activeClassName="selected">
-              <i className="material-icons">directions_run</i> Career
+              <i className="material-icons">home</i> Dashboard
             </NavLink>
           </li> */}
           <li>
             <a href="/" className="material-ripple">
-              <i className="material-icons">directions_run</i> Career
+              <i className="material-icons">home</i> Dashboard
             </a>
           </li>
           {/* <li>
@@ -37,16 +37,7 @@ const Sidebar: React.FC = () => (
               <i className="material-icons">lightbulb_outline</i> Learning
             </a>
           </li>
-          {/* <li>
-            <NavLink to="/" className="material-ripple" activeClassName="selected">
-              <i className="material-icons">home</i> Dashboard
-            </NavLink>
-          </li> */}
-          {/* <li>
-            <a href="/" className="material-ripple">
-              <i className="material-icons">home</i> Dashboard
-            </a>
-          </li> */}
+          
 
           {/* <li>
             <NavLink to="/employment" className="material-ripple" activeClassName="selected">
@@ -87,6 +78,16 @@ const Sidebar: React.FC = () => (
           <li>
             <a href="/pricing" className="material-ripple">
               <i className="material-icons">attach_money</i> Pricing
+            </a>
+          </li>
+          {/* <li>
+            <NavLink to="/career" className="material-ripple" activeClassName="selected">
+              <i className="material-icons">directions_run</i> Career
+            </NavLink>
+          </li> */}
+          <li>
+            <a href="/career" className="material-ripple">
+              <i className="material-icons">directions_run</i> Career
             </a>
           </li>
         </ul>

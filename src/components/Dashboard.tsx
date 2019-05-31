@@ -2,6 +2,8 @@ import React from 'react'
 import LinkedInRecommendations from './LinkedInRecommendations'
 import LinksToSocial from './LinksToSocial/LinksToSocial'
 import PlacesWorked from './PlacesWorked/PlacesWorked'
+import GithubEvents from './GithubEvents/GithubEvents'
+import GithubRecentActivities from './GithubRecentActivities/GithubRecentActivities'
 
 const Dashboard: React.FC = () => (
   <div id="page-wrapper">
@@ -13,6 +15,14 @@ const Dashboard: React.FC = () => (
         <div className="header-title">
           <h1>Dashboard</h1>
           <small>Dashboard</small>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+          <GithubEvents />
+        </div>
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          {/* <GithubRecentActivities /> */}
         </div>
       </div>
       <div className="row">

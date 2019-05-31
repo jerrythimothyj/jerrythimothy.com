@@ -1,3 +1,5 @@
+import { UTCToLocal } from './Date.service'
+import { getGithubEvents, transformGithubEvents } from './GithubEvents.service'
 import {
   checkAndSetMessageNotificationCount,
   getMessageNotificationCount,
@@ -11,4 +13,7 @@ export {
   setMessageNotificationCount,
   getMessageNotificationCount,
   checkAndSetMessageNotificationCount,
+  getGithubEvents,
+  transformGithubEvents,
+  UTCToLocal,
 }

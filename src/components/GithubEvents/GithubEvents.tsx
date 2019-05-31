@@ -79,11 +79,11 @@ class GithubEvents extends React.Component {
   }
 
   public componentDidMount() {
-    let githubEvents: object[] = []
-    getGithubEvents().then(response => {
-      githubEvents = response.data
-      const transformedGithubEvents = transformGithubEvents(githubEvents)
-      this.makeGithubEventsChart(transformedGithubEvents)
+    getGithubEvents().then(responses => {
+      const allResponseData = R.map(response => {
+        return response.data
+      }, responses)
+      this.makeGithubEventsChart(transformGithubEvents(allResponseData))
     })
   }
   public render() {

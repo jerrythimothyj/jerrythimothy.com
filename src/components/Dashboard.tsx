@@ -1,9 +1,9 @@
 import React from 'react'
+import GithubEvents from './GithubEvents/GithubEvents'
+import GithubRecentActivities from './GithubRecentActivities/GithubRecentActivities'
 import LinkedInRecommendations from './LinkedInRecommendations'
 import LinksToSocial from './LinksToSocial/LinksToSocial'
 import PlacesWorked from './PlacesWorked/PlacesWorked'
-import GithubEvents from './GithubEvents/GithubEvents'
-import GithubRecentActivities from './GithubRecentActivities/GithubRecentActivities'
 
 const Dashboard: React.FC = () => (
   <div id="page-wrapper">

@@ -1,4 +1,3 @@
-import { array } from 'prop-types'
 import * as R from 'ramda'
 import React from 'react'
 import { getGithubEvents, transformGithubEvents } from '../../services'

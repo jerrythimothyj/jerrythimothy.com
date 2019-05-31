@@ -1,4 +1,3 @@
-import * as R from 'ramda'
 import { getSessionStorageItem, setSessionStorageItem } from './index'
 
 export const checkAndSetMessageNotificationCount = (count: number) => {

@@ -13,3 +13,19 @@ export const fromNowAgo = (dttm: string) => {
     .local()
     .fromNow()
 }
+
+export const dateDiff = (date: string, diffType: any) => {
+  return moment()
+    .local()
+    .diff(date, diffType)
+}
+
+export const getYear = (
+  date = moment()
+    .local()
+    .format('YYYY')
+) => {
+  return moment(date)
+    .local()
+    .format('YYYY')
+}

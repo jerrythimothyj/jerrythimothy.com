@@ -1,5 +1,7 @@
 import axios from 'axios'
+import moment from 'moment'
 import * as R from 'ramda'
+import { dateDiff, getYear } from './Date.service'
 import { UTCToLocal } from './index'
 
 const linkToEvents =
@@ -15,7 +17,7 @@ export const getGithubEvents = () =>
     axios.get(linkToEvents + '&page=7'),
     axios.get(linkToEvents + '&page=8'),
     axios.get(linkToEvents + '&page=9'),
-    axios.get(linkToEvents + '&page=10')
+    axios.get(linkToEvents + '&page=10'),
   ])
 
 export const transformGithubEvents = (events: any[]) => {
@@ -124,4 +126,15 @@ export const getActivityClassName = (activity: any) => {
     default:
       return 'activity-purple'
   }
+}
+
+export const getGithubContributions = () => {
+  return axios.get('https://github-contributions-api.now.sh/v1/jerrythimothyj')
+}
+
+export const transformContributionsData = (contributions: object[]) => {
+  const dataUptoToday = R.filter((contribution: any) => {
+    return dateDiff(contribution.date, 'days') >= 0 && getYear(contribution.date) === getYear()
+  }, contributions)
+  return R.reverse(R.slice(0, Infinity, dataUptoToday))
 }

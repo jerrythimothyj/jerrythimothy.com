@@ -1,8 +1,10 @@
-import { fromNowAgo, UTCToLocal } from './Date.service'
+import { fromNowAgo, getYear, UTCToLocal } from './Date.service'
 import {
   getActivityClassName,
+  getGithubContributions,
   getGithubEvents,
   transformActivityText,
+  transformContributionsData,
   transformGithubEvents,
 } from './Github.service'
 import {
@@ -24,4 +26,6 @@ export {
   fromNowAgo,
   transformActivityText,
   getActivityClassName,
+  getGithubContributions,
+  transformContributionsData,
 }

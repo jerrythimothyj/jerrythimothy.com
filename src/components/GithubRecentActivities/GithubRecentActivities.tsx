@@ -12,7 +12,7 @@ const GithubRecentActivities: React.FC<Props> = (props: Props) => (
     <div className="panel-heading">
       <div className="panel-title">
         <i className="ti-stats-up" />
-        <h4>Recent Activities</h4>
+        <h4>Github Recent Activities</h4>
       </div>
     </div>
     <div className="panel-body">

@@ -6,3 +6,10 @@ export const UTCToLocal = (dttm: string) => {
     .local()
     .format('YYYY-MM-DD')
 }
+
+export const fromNowAgo = (dttm: string) => {
+  return moment
+    .utc(dttm)
+    .local()
+    .fromNow()
+}

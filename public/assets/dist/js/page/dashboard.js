@@ -38,6 +38,14 @@ $(document).ready(function () {
         // position: 'left'
     });
 
+    $('#githubRecentActivities .activity-list').slimScroll({
+        size: '3px',
+        height: '360px',
+        allowPageScroll: true,
+        railVisible: true
+        // position: 'left'
+      });
+
     //Monthly calender
     $('.monthly_calender').slimScroll({
         size: '3px',

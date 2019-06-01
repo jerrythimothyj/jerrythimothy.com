@@ -1,0 +1,6 @@
+$color-github-recent-activities-link: rgb(35, 82, 124);
+#githubRecentActivities .activity-list {
+  a {
+    color: $color-github-recent-activities-link;
+  }
+}

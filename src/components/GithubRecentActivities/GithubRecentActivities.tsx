@@ -1,7 +1,14 @@
+import * as R from 'ramda'
 import React from 'react'
+import { fromNowAgo, getActivityClassName, transformActivityText } from '../../services'
+import './GithubRecentActivities.scss'
 
-const GithubRecentActivities: React.FC = () => (
-  <div className="panel panel-bd lobidisable">
+interface Props {
+  activities: object[]
+}
+
+const GithubRecentActivities: React.FC<Props> = (props: Props) => (
+  <div id="githubRecentActivities" className="panel panel-bd lobidisable">
     <div className="panel-heading">
       <div className="panel-title">
         <i className="ti-stats-up" />
@@ -10,30 +17,14 @@ const GithubRecentActivities: React.FC = () => (
     </div>
     <div className="panel-body">
       <ul className="activity-list list-unstyled">
-        <li className="activity-purple">
-          <small className="text-muted">9 minutes ago</small>
-          <p>
-            You <span className="label label-success label-pill">recommended</span> Karen Ortega
-          </p>
-        </li>
-        <li className="activity-danger">
-          <small className="text-muted">15 minutes ago</small>
-          <p>You followed Olivia Williamson</p>
-        </li>
-        <li className="activity-warning">
-          <small className="text-muted">22 minutes ago</small>
-          <p>
-            You <span className="text-danger">subscribed</span> to Harold Fuller
-          </p>
-        </li>
-        <li className="activity-primary">
-          <small className="text-muted">30 minutes ago</small>
-          <p>You updated your profile picture</p>
-        </li>
-        <li>
-          <small className="text-muted">35 minutes ago</small>
-          <p>You deleted homepage.psd</p>
-        </li>
+        {R.map((activity: any) => {
+          return (
+            <li className={getActivityClassName(activity)} key={activity.id}>
+              <small className="text-muted">{fromNowAgo(activity.created_at)}</small>
+              <p dangerouslySetInnerHTML={{ __html: transformActivityText(activity) }} />
+            </li>
+          )
+        }, props.activities)}
       </ul>
     </div>
   </div>

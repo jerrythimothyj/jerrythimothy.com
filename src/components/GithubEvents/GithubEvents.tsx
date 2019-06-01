@@ -3,7 +3,14 @@ import React from 'react'
 import { getGithubEvents, transformGithubEvents } from '../../services'
 import './GithubEvents.scss'
 
-class GithubEvents extends React.Component {
+interface Props {
+  events: object[]
+}
+class GithubEvents extends React.Component<Props, null> {
+  constructor(props: Props) {
+    super(props)
+  }
+
   public makeGithubEventsChart = (chartData: object[]) => {
     if (!R.isEmpty(R.prop('AmCharts', window))) {
       const AmCharts: any = R.prop('AmCharts', window)
@@ -78,14 +85,11 @@ class GithubEvents extends React.Component {
     }
   }
 
-  public componentDidMount() {
-    getGithubEvents().then(responses => {
-      const allResponseData = R.map(response => {
-        return response.data
-      }, responses)
-      this.makeGithubEventsChart(transformGithubEvents(allResponseData))
-    })
+  public componentDidUpdate() {
+    const { events } = this.props
+    this.makeGithubEventsChart(transformGithubEvents(events))
   }
+
   public render() {
     return (
       <div className="panel panel-bd lobidrag">

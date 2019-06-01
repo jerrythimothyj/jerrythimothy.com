@@ -1,5 +1,10 @@
-import { UTCToLocal } from './Date.service'
-import { getGithubEvents, transformGithubEvents } from './GithubEvents.service'
+import { fromNowAgo, UTCToLocal } from './Date.service'
+import {
+  getActivityClassName,
+  getGithubEvents,
+  transformActivityText,
+  transformGithubEvents,
+} from './Github.service'
 import {
   checkAndSetMessageNotificationCount,
   getMessageNotificationCount,
@@ -16,4 +21,7 @@ export {
   getGithubEvents,
   transformGithubEvents,
   UTCToLocal,
+  fromNowAgo,
+  transformActivityText,
+  getActivityClassName,
 }

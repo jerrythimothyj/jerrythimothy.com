@@ -9,11 +9,11 @@ const linkToEvents =
 export const getGithubEvents = () =>
   axios.all([
     axios.get(linkToEvents + '&page=1'),
-    // axios.get(linkToEvents + '&page=2'),
-    // axios.get(linkToEvents + '&page=3'),
-    // axios.get(linkToEvents + '&page=4'),
-    // axios.get(linkToEvents + '&page=5'),
-    // axios.get(linkToEvents + '&page=6'),
+    axios.get(linkToEvents + '&page=2'),
+    axios.get(linkToEvents + '&page=3'),
+    axios.get(linkToEvents + '&page=4'),
+    axios.get(linkToEvents + '&page=5'),
+    axios.get(linkToEvents + '&page=6'),
     // axios.get(linkToEvents + '&page=7'),
     // axios.get(linkToEvents + '&page=8'),
     // axios.get(linkToEvents + '&page=9'),

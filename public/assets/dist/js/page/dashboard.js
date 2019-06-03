@@ -16,10 +16,10 @@ $(document).ready(function () {
     }, 1300);
 
     //counter
-    $('.count-number').counterUp({
-        delay: 10,
-        time: 5000
-    });
+    // $('.count-number').counterUp({
+    //     delay: 10,
+    //     time: 5000
+    // });
 
     //Chat list
     $('.chat_list').slimScroll({

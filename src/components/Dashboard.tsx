@@ -8,6 +8,7 @@ import GithubRecentActivities from './GithubRecentActivities/GithubRecentActivit
 import LinkedInRecommendations from './LinkedInRecommendations'
 import LinksToSocial from './LinksToSocial/LinksToSocial'
 import PlacesWorked from './PlacesWorked/PlacesWorked'
+import TopStats from './TopStats/TopStats'
 
 const Dashboard: React.FC = () => {
   const [ghEvents, setGhEvents] = useState([])
@@ -40,6 +41,9 @@ const Dashboard: React.FC = () => {
             <h1>Dashboard</h1>
             <small>Dashboard</small>
           </div>
+        </div>
+        <div className="row">
+          <TopStats noOfContributions={ghContributions.length} />
         </div>
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">

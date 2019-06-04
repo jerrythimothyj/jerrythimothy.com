@@ -1,5 +1,9 @@
 import React from 'react'
 
+const handleOnClick = () => {
+  window.location.href = 'mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com'
+}
+
 const Pricing: React.FC = () => (
   <div id="page-wrapper">
     <div className="content">
@@ -34,14 +38,8 @@ const Pricing: React.FC = () => (
                 <li>Resource allocation</li>
                 <li>Roadmap</li>
               </ul>
-              <button className="button center-block">
-                <a
-                  className="fa-inverse"
-                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
-                  target="_blank"
-                >
-                  Buy Now
-                </a>
+              <button className="button center-block" onClick={handleOnClick}>
+                Buy Now
               </button>
             </div>
           </div>
@@ -68,14 +66,8 @@ const Pricing: React.FC = () => (
                 <li>No domain / hosting</li>
                 <li>Free maintenance</li>
               </ul>
-              <button className="button center-block">
-                <a
-                  className="fa-inverse"
-                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
-                  target="_blank"
-                >
-                  Buy Now
-                </a>
+              <button className="button center-block" onClick={handleOnClick}>
+                Buy Now
               </button>
             </div>
           </div>
@@ -101,14 +93,8 @@ const Pricing: React.FC = () => (
                 <li>JQuery / Angular / React / Vue</li>
                 <li>No domain / hosting</li>
               </ul>
-              <button className="button center-block">
-                <a
-                  className="fa-inverse"
-                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
-                  target="_blank"
-                >
-                  Buy Now
-                </a>
+              <button className="button center-block" onClick={handleOnClick}>
+                Buy Now
               </button>
             </div>
           </div>
@@ -134,16 +120,50 @@ const Pricing: React.FC = () => (
                 <li>MongoDB / MySQL</li>
                 <li>No domain / hosting</li>
               </ul>
-              <button className="button center-block">
-                <a
-                  className="fa-inverse"
-                  href="mailto:jerrythimothy@gmail.com?Subject=Message from jerrythimothy.com"
-                  target="_blank"
-                >
-                  Buy Now
-                </a>
+              <button className="button center-block" onClick={handleOnClick}>
+                Buy Now
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-sm-12">
+        <div className="pricing">
+          <div className="pricing_item">
+            <h3 className="pricing_title">Part-time</h3>
+            <div className="pricing_price">
+              <span className="pricing_currency">$</span>15
+              <span className="pricing_period">/ hour</span>
+            </div>
+            <ul className="pricing_feature-list">
+              <li className="pricing_feature">
+                <i className="ti-bar-chart" />
+                Maximum 2 hours/day
+              </li>
+            </ul>
+
+            <button className="pricing_action" onClick={handleOnClick}>
+              Choose plan
+            </button>
+          </div>
+          <div className="pricing_item pricing_item_featured">
+            <h3 className="pricing_title">Full-time</h3>
+            <p className="pricing_sentence">For medium sized teams</p>
+            <div className="pricing_price">
+              <span className="pricing_currency">$</span>21
+              <span className="pricing_period">/ hour</span>
+            </div>
+            <ul className="pricing_feature-list">
+              <li className="pricing_feature">
+                <i className="ti-bar-chart" />
+                Maximum 8 hours/day
+              </li>
+            </ul>
+            <button className="pricing_action" onClick={handleOnClick}>
+              Choose plan
+            </button>
           </div>
         </div>
       </div>
@@ -158,6 +178,9 @@ const Pricing: React.FC = () => (
             <p>- Deployment can be done at extra cost.</p>
             <p>- Maintenance cost on Business and Advanced plan.</p>
             <p>- Extra pages on Home, Business and Advanced plan costs extra.</p>
+            <p>
+              - All the plans are for Remote work. Cost differs to work at the customer's place.
+            </p>
           </div>
         </div>
       </div>

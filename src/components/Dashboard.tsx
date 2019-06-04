@@ -9,6 +9,7 @@ import LinkedInRecommendations from './LinkedInRecommendations'
 import LinksToSocial from './LinksToSocial/LinksToSocial'
 import PlacesWorked from './PlacesWorked/PlacesWorked'
 import TopStats from './TopStats/TopStats'
+import UserVisits from './UserVisits/UserVisits'
 
 const Dashboard: React.FC = () => {
   const [ghEvents, setGhEvents] = useState([])
@@ -69,6 +70,9 @@ const Dashboard: React.FC = () => {
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <LinksToSocial />
+          </div>
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+            <UserVisits />
           </div>
         </div>
       </div>

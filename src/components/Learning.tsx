@@ -28,7 +28,6 @@ const Learning: React.FC = () => {
         </div>
         <div className="row">
           {mapIndexed((val: any, index) => {
-            console.log('val=', val)
             return (
               <div className="col-sm-4" key={index}>
                 <div className="panel panel-bd">

@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "lint-js": "tslint -c tslint.json 'src/**/*.{ts,tsx}' --fix --format verbose",
     "lint-css": "stylelint 'src/**/*.css' 'src/**/*.scss' --ignore-path .gitignore --config .stylelintrc",
-    "check-readiness": "npm run lint-js && npm run lint-css && npm run test",
+    "check-readiness": "npm run lint-js && npm run lint-css",
     "prepublish": "npm run build",
     "publish": "gh-pages -d build"
   },
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@types/ramda": "github:types/npm-ramda#dist",
-    "pre-commit": "1.2.2",
+    "husky": "3.0.2",
     "prettier": "1.17.1",
     "stylelint": "10.0.1",
     "stylelint-8-point-grid": "0.2.1",
@@ -69,9 +69,12 @@
     "tslint-plugin-prettier": "2.0.1",
     "tslint-react": "4.0.0"
   },
-  "pre-commit": [
-    "check-readiness"
-  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "check-readiness",
+      "pre-push": "check-readiness"
+    }
+  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"

@@ -150,7 +150,6 @@ const Pricing: React.FC = () => (
           </div>
           <div className="pricing_item pricing_item_featured">
             <h3 className="pricing_title">Full-time</h3>
-            <p className="pricing_sentence">For medium sized teams</p>
             <div className="pricing_price">
               <span className="pricing_currency">$</span>21
               <span className="pricing_period">/ hour</span>

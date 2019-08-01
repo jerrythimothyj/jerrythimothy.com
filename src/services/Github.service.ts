@@ -84,7 +84,6 @@ const githubEventsList: any = {
 }
 
 export const transformActivityText = (activity: any) => {
-
   let displayText = activity.actor.display_login
   let link = 'https://github.com/' + activity.repo.name
 
@@ -93,7 +92,6 @@ export const transformActivityText = (activity: any) => {
       displayText +=
         ' ' + "<span class='label label-success label-pill'>" + activity.payload.action + '</span>'
     } else {
-
       displayText +=
         ' ' + "<span class='label label-primary label-pill'>" + activity.payload.action + '</span>'
     }
@@ -106,7 +104,6 @@ export const transformActivityText = (activity: any) => {
       link = activity.payload.pull_request.html_url
     }
   } else {
-    console.log('activity=', activity, githubEventsList[activity.type].text);
     displayText +=
       ' ' +
       "<span class='label label-danger label-pill'>" +

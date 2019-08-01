@@ -7,6 +7,7 @@ import {
   transformContributionsData,
   transformGithubEvents,
 } from './Github.service'
+import { fetchUdemyCertificates } from './Learning.service'
 import {
   checkAndSetMessageNotificationCount,
   getMessageNotificationCount,
@@ -28,4 +29,5 @@ export {
   getActivityClassName,
   getGithubContributions,
   transformContributionsData,
+  fetchUdemyCertificates,
 }

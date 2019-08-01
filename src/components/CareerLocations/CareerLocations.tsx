@@ -27,6 +27,12 @@ class CareerLocations extends React.Component {
 
             images: [
               {
+                latitude: 23.4241,
+                longitude: 53.8478,
+                svgPath: targetSVG,
+                title: 'UAE',
+              },
+              {
                 latitude: 37.0902,
                 longitude: -95.7129,
                 svgPath: targetSVG,

@@ -14,6 +14,7 @@ import {
   setMessageNotificationCount,
 } from './MessageNotification.service'
 import { getSessionStorageItem, setSessionStorageItem } from './SessionStorage.service'
+import { fetchTechStack } from './Technology.service'
 
 export {
   setSessionStorageItem,
@@ -30,4 +31,5 @@ export {
   getGithubContributions,
   transformContributionsData,
   fetchUdemyCertificates,
+  fetchTechStack,
 }

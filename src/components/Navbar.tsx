@@ -27,7 +27,7 @@ const Navbar: React.FC = () => (
       </ul>
       <ul className="nav navbar-nav">
         <li>
-          <a href="assets/RESUME.JERRY.THIMOTHY.J.pdf" target="_blank" className="btn-buy">
+          <a href="assets/RESUME JERRY THIMOTHY J.pdf" target="_blank" className="btn-buy">
             <i className="pe-7s-id" /> Download Resume
           </a>
         </li>

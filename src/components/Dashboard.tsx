@@ -1,4 +1,3 @@
-import axios from 'axios'
 import * as R from 'ramda'
 import React, { useEffect, useState } from 'react'
 import { getGithubContributions, getGithubEvents } from '../services'

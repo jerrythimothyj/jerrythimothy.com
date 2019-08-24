@@ -1,4 +1,5 @@
-import { fromNowAgo, getYear, UTCToLocal } from './Date.service'
+import { fetchBlogs } from './Blogs.service'
+import { fromNowAgo, UTCToLocal } from './Date.service'
 import {
   getActivityClassName,
   getGithubContributions,
@@ -32,4 +33,5 @@ export {
   transformContributionsData,
   fetchUdemyCertificates,
   fetchTechStack,
+  fetchBlogs,
 }

@@ -1,5 +1,4 @@
 import axios from 'axios'
-import moment from 'moment'
 import * as R from 'ramda'
 import { dateDiff, getYear } from './Date.service'
 import { UTCToLocal } from './index'

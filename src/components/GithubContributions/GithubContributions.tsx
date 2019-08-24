@@ -7,10 +7,6 @@ interface Props {
   contributions: any
 }
 class GithubContributions extends React.Component<Props, null> {
-  constructor(props: Props) {
-    super(props)
-  }
-
   public makeGithubContributionsChart = (chartData: any) => {
     if (!R.isEmpty(R.prop('AmCharts', window))) {
       const AmCharts: any = R.prop('AmCharts', window)
